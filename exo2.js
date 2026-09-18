@@ -12,4 +12,9 @@ function Echange(array) {
     }
 }
 
+function Ranger(array) {
+    let nombre = [0, 1, 0, 0, 1, 0];
+    return array.map(nombre);
+}
 console.log(Echange());
+console.log(Ranger());
